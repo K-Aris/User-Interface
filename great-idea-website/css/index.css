@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -167,6 +168,8 @@ nav a:hover {
 .feature {
 	text-align: left;
 	padding: 0px 0px 0px 0px;
+	font-family: 'Roboto Mono',monospace; 
+
 }
 
 .f-top {
@@ -182,7 +185,7 @@ nav a:hover {
 
 .f-bottom {
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 	margin-top: 30px; 
 	margin-bottom: 30px; 
 }
