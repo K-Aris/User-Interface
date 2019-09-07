@@ -220,3 +220,75 @@ footer {
 .email a:hover {
 	color: blue; 
 }
+
+
+/* Service Page CSS */
+
+.service-img {
+	width: 100%; 
+	margin-top: 5%; 
+	padding-top: 1%; 
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+.service {
+	margin: 20px 0px 20px 0px; 
+}
+
+.service-container {
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black; 
+	margin: 20px 0px 20px 0px; 
+	padding: 20px 0px 20px 0px; 
+
+}
+
+.service-box{
+	margin: 10px 10px 10px 10px;  
+	border: 1px solid black;
+	display: inline-block;  
+	width: 47%;
+	padding: 2%;
+	background-color: lightgrey; 
+}
+
+button {
+	margin-top: 10px;
+	background-color: white; 
+	width: 35%; 
+	height: 3%; 
+	border: 1px solid black; 
+	border-radius: 3px; 
+}
+
+button:hover {
+	background-color: dodgerblue;
+	color: white;
+	border: 1px solid white;   
+}
+
+.service-footer {
+	width: 100%;
+}
+
+.service-footer-left {
+	width: 48%; 
+	display: inline-block; 
+	vertical-align: top; 
+	margin: 10px 10px 0px 0px;
+	padding: 0px 10px 0px 0px;  
+}
+
+.service-footer-left ul {
+	margin: 10px; 
+}
+
+.services-info-img {
+	display: inline-block;
+	width: 48%; 
+	height: auto;
+}
+
