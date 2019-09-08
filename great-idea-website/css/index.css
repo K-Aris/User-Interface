@@ -243,14 +243,20 @@ footer {
 	border-bottom: 1px solid black; 
 	margin: 20px 0px 20px 0px; 
 	padding: 20px 0px 20px 0px; 
+	text-align: justify; 
+}
 
+.service-container:after {
+	content: '';
+	width: 100%; 
+	display: inline-block;
 }
 
 .service-box{
-	margin: 10px 10px 10px 10px;  
+	margin: 12px 0px 12px 0px;  
 	border: 1px solid black;
 	display: inline-block;  
-	width: 47%;
+	width: 48.5%;
 	padding: 2%;
 	background-color: lightgrey; 
 }
