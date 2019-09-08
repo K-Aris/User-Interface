@@ -237,18 +237,18 @@ footer {
 	padding-top: 1%; 
 }
 
-.services-header-img {
+.service-header-img {
 	width: 100%;
 }
 
 .service {
-	margin: 20px 0px 20px 0px; 
+	margin: 40px 0px 40px 0px; 
 }
 
 .service-container {
 	border-top: 1px solid black; 
 	border-bottom: 1px solid black; 
-	margin: 20px 0px 20px 0px; 
+	margin: 50px 0px 50px 0px; 
 	padding: 20px 0px 20px 0px; 
 	text-align: justify; 
 }
@@ -280,11 +280,19 @@ button {
 button:hover {
 	background-color: dodgerblue;
 	color: white;
-	border: 1px solid white;   
+	border: 1px solid white;  s
 }
 
 .service-footer {
 	width: 100%;
+	margin: 40px 0px 40px 0px;
+	text-align: justify;
+}
+
+.service-footer:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
 }
 
 .service-footer-left {
@@ -305,3 +313,10 @@ button:hover {
 	height: auto;
 }
 
+/* Annimation */
+
+button {
+	transition-property: all; 
+	transition-duration: 0.5s; 
+	transition-timing-function: ease-out; 
+}
